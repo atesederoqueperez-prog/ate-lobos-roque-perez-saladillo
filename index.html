@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATE Lobos · Roque Pérez · Saladillo</title>
+<meta name="description" content="ATE Seccional Lobos, Roque Pérez y Saladillo - Siempre junto al trabajador.">
+<style>
+:root{--red:#c91522;--dark:#151515;--light:#f5f5f5;--white:#fff}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--light);color:#222}
+header{background:var(--dark);color:white;position:sticky;top:0;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:900;font-size:22px}.logo span{color:var(--red)}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-weight:bold;font-size:14px}
+.hero{background:linear-gradient(135deg,#111,#333);color:white;padding:70px 20px}
+.hero-inner{max-width:1100px;margin:auto}
+.badge{display:inline-block;background:var(--red);padding:7px 12px;border-radius:4px;font-weight:bold}
+h1{font-size:clamp(38px,7vw,70px);line-height:.95;margin:18px 0 12px}
+.hero p{font-size:20px;max-width:650px;color:#ddd}
+.btn{display:inline-block;background:var(--red);color:white;padding:13px 18px;border-radius:5px;text-decoration:none;font-weight:bold;margin-top:10px}
+.container{max-width:1100px;margin:auto;padding:45px 20px}
+.section-title{font-size:32px;margin:0 0 22px;border-left:6px solid var(--red);padding-left:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:white;border-radius:8px;overflow:hidden;box-shadow:0 3px 14px #0001}
+.card .photo{height:160px;background:#ddd;display:flex;align-items:center;justify-content:center;color:#777;font-weight:bold}
+.card-content{padding:20px}.date{font-size:12px;color:#777;font-weight:bold;text-transform:uppercase}
+.card h3{margin:8px 0;font-size:21px}.card p{line-height:1.5;color:#555}
+.notice{background:#fff;border-left:6px solid var(--red);padding:22px;border-radius:6px;box-shadow:0 2px 10px #0001}
+.contact{background:var(--red);color:white}.contact .section-title{border-color:white}
+footer{background:#111;color:#bbb;text-align:center;padding:28px 20px}
+footer strong{color:white}
+@media(max-width:700px){nav{display:none}.hero{padding:55px 20px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">ATE <span>LOBOS · ROQUE PÉREZ · SALADILLO</span></div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#noticias">Noticias</a>
+      <a href="#derechos">Derechos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="hero-inner">
+    <span class="badge">ATE SECCIONAL</span>
+    <h1>Siempre junto<br>al trabajador.</h1>
+    <p>Espacio digital para compartir noticias, comunicados, recorridas, derechos laborales y actividades de ATE Lobos, Roque Pérez y Saladillo.</p>
+    <a class="btn" href="#noticias">Ver noticias</a>
+  </div>
+</section>
+
+<section class="container" id="noticias">
+  <h2 class="section-title">Últimas noticias</h2>
+  <div class="grid">
+    <article class="card">
+      <div class="photo">FOTO DE LA NOTICIA</div>
+      <div class="card-content">
+        <div class="date">24 de septiembre de 2026</div>
+        <h3>ATE solicitó la reapertura de paritarias</h3>
+        <p>Informamos a las trabajadoras y trabajadores municipales sobre las gestiones realizadas por nuestra organización.</p>
+        <a class="btn" href="#">Leer más</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="photo">FOTO DE LA NOTICIA</div>
+      <div class="card-content">
+        <div class="date">Noticias ATE</div>
+        <h3>Recorriendo los sectores de trabajo</h3>
+        <p>Seguimos escuchando a nuestros compañeros y llevando sus inquietudes a los espacios correspondientes.</p>
+        <a class="btn" href="#">Leer más</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="photo">FOTO DE LA NOTICIA</div>
+      <div class="card-content">
+        <div class="date">Información</div>
+        <h3>Derechos de los trabajadores</h3>
+        <p>Recordá que podés consultar tus derechos a través del Convenio Colectivo de Trabajo.</p>
+        <a class="btn" href="#derechos">Ver información</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="container" id="derechos">
+  <h2 class="section-title">Tus derechos importan</h2>
+  <div class="notice">
+    <h3>ATE siempre está con vos</h3>
+    <p>Este espacio puede utilizarse para publicar información sobre el Convenio Colectivo de Trabajo, licencias, condiciones laborales, paritarias, comunicados y respuestas a consultas frecuentes.</p>
+    <p><strong>Unidos somos más fuertes.</strong></p>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="container">
+    <h2 class="section-title">Contacto</h2>
+    <p><strong>ATE Seccional Lobos · Roque Pérez · Saladillo</strong></p>
+    <p>Oficina: Sabaté 1306</p>
+    <p>Atención: lunes a viernes de 08:00 a 11:00</p>
+    <p>Tel.: 2227-61-81-13 · 2227-44-84-59</p>
+    <a class="btn" style="background:white;color:#c91522" href="tel:+542227618113">Llamar a ATE</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <strong>ATE Lobos · Roque Pérez · Saladillo</strong><br>
+  Siempre junto al trabajador.
+</footer>
+</body>
+</html>
